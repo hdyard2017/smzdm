@@ -24,7 +24,7 @@
 - 打开开发者工具 (Windows快捷键`F12`, MacOS快捷键`option + command + i`)
 - 选择Network, 刷新页面, 选择第一个`www.smzdm.com`, 找到`Requests Headers`里的`Cookie`
 - 复制Cookie，选择以下三项条填入Actions secrets里面COOKIE：     
-- sess=1*****a; user=user:a*****a;smzdm_id=a*****a;
+- sess=1cxa; user=user:1232;smzdm_id=232;
 ### 3.2 更改运行时间
 在`.github/workflows/main.yml`中，找到
 ```yml
