@@ -37,9 +37,9 @@ jobs:
       # Runs a set of commands using the runners shell
       - name: Waiting
         run: |        
-          echo "开始随机等待 1-1000 秒..."
+          echo "开始生成随机数，使程序在早上7点至8点之间随机选择时间段执行..."
           # 1000秒内随机开始
-          sleep $[ ( $RANDOM % 1000 )  + 1 ]
+          sleep $[ ( $RANDOM % 3600 )  + 1 ]
           echo "等待结束，开始签到"
           
       - name: Working
