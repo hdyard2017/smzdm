@@ -35,12 +35,12 @@ jobs:
           pip install requests
           
       # Runs a set of commands using the runners shell
-      - name: Waiting
-        run: |        
-          echo "开始生成随机数，使程序在早上7点随机时间段执行..."
-          # 100秒内随机开始
-          sleep $[ ( $RANDOM % 100 )  ]
-          echo "等待结束，开始签到"
+      #- name: Waiting
+      # ## run: |        
+      #    echo "开始生成随机数，使程序在早上7点随机时间段执行..."
+      #     # 100秒内随机开始
+      #    sleep $[ ( $RANDOM % 100 )  ]
+      #   echo "等待结束，开始签到"
           
       - name: Working
         env:
